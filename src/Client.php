@@ -5,6 +5,7 @@ namespace WeatherPHP;
 final class Client
 {
     private string $apiKey;
+    
     public function __construct(string $apiKey)
     {
         $this->apiKey = $apiKey;
