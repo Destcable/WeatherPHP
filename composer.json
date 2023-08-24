@@ -3,6 +3,7 @@
     "description": "A PHP library for retrieving weather information.",
     "type": "library",
     "minimum-stability": "stable",
+    "license": "MIT",
     "require": {
         "php": ">=8.1"
     },
