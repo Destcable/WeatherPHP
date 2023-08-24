@@ -2,13 +2,15 @@
     "name": "destcable/weather-php",
     "description": "A PHP library for retrieving weather information.",
     "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
     "authors": [
         {
             "name": "Destcable",
             "email": "destcoder@gmail.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "WeatherPHP\\": "src/"
