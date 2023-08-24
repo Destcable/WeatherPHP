@@ -16,7 +16,7 @@ class Weather
         $client = new Client(apiKey: $this->apiKey);
 
         return $client->get(
-            city: $search,
+            $search,
         );
     }
 }
