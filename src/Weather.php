@@ -8,9 +8,9 @@ class Weather
         $this->apiKey = $apiKey;
     }
 
-    public function find(string $search, string $degreeType)
+    public function find(string $search)
     {
-        $client = new Client( apiKey: $this->apiKey);
+        $client = new Client(apiKey: $this->apiKey);
 
         return $client->get(
             city: $search,

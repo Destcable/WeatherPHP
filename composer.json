@@ -1,0 +1,15 @@
+{
+    "name": "komandaf5/weather-php",
+    "autoload": {
+        "psr-4": {
+            "Komandaf5\\WeatherPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Destcable",
+            "email": "artmobpavlov21@gmail.com"
+        }
+    ],
+    "require": {}
+}
