@@ -1,15 +1,17 @@
 {
-    "name": "komandaf5/weather-php",
-    "autoload": {
-        "psr-4": {
-            "Komandaf5\\WeatherPhp\\": "src/"
-        }
-    },
+    "name": "destcable/weather-php",
+    "description": "A PHP library for retrieving weather information.",
+    "type": "library",
     "authors": [
         {
             "name": "Destcable",
-            "email": "artmobpavlov21@gmail.com"
+            "email": "destcoder@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeatherPHP\\": "src/"
+        }
+    }
 }

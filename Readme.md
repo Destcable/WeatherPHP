@@ -1,11 +1,17 @@
 # WeatherPHP
 
 ## Usage
+
+To work with the library, you need to register on the https://openweathermap.org 
+platform, after which you will receive an authorization key (it is free), and insert 
+this key during initialization as shown in the example.
+
 ```php
-$weather = new Weather( apiKey: 'key' );
+use WeatherPHP\Weather;
+
+$weather = new Weather( apiKey: 'you_api_key' );
 
 $weather->find(
-    search: 'Moscow',
-    degreeType: 'F'
+    search: 'San Francisco',
 );
 ```

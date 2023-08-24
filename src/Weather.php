@@ -1,5 +1,7 @@
 <?php
 
+namespace WeatherPHP;
+
 class Weather
 {
     private string $apiKey;
