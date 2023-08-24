@@ -13,7 +13,7 @@ class Weather
 
     public function find(string $search)
     {
-        $client = new Client(apiKey: $this->apiKey);
+        $client = new Client($this->apiKey);
 
         return $client->get(
             $search,
