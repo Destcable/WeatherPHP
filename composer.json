@@ -1,6 +1,6 @@
 {
     "name": "destcable/weather-php",
-    "description": "Weather PHP Weather Library: Your trusted companion for accessing accurate weather data. Easily integrate this powerful library into your PHP projects and get up-to-date weather information anywhere in the world. Whether you need current weather conditions, a forecast for the coming days, or detailed climate data, Weather PHP has everything you need in a convenient format. The library provides easy-to-use methods for extracting data, making the process of integrating and working with weather information as easy as possible. Don't limit yourself - from mobile apps to web services, Weather PHP is ready to provide you with all the weather information you need.",
+    "description": "WeatherPHP: Powerful library for integrating weather data. Get up-to-date weather information with ease, query a variety of weather sources, and integrate forecasts and weather data into your web applications with minimal effort.",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
