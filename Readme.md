@@ -9,9 +9,11 @@ this key during initialization as shown in the example.
 ```php
 use WeatherPHP\Weather;
 
-$weather = new Weather( apiKey: 'you_api_key' );
+$weather = new Weather( apiKey: 'you_api_key');
 
 $weather->find(
-    search: 'San Francisco',
+    search: 'San Francisco'
 );
+
+$weather->getTemperature();
 ```
