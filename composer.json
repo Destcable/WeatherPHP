@@ -1,6 +1,6 @@
 {
     "name": "destcable/weather-php",
-    "description": "WeatherPHP : Powerful library for integrating weather data. Get up-to-date weather information with ease, query a variety of weather sources, and integrate forecasts and weather data into your web applications with minimal effort.",
+    "description": "WeatherPHP: Powerful library for integrating weather data. Get up-to-date weather information with ease, query a variety of weather sources, and integrate forecasts and weather data into your web applications with minimal effort.",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
