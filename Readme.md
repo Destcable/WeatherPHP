@@ -11,6 +11,8 @@ use WeatherPHP\Weather;
 
 $weather = new Weather( apiKey: 'you_api_key');
 
+$weather->lanugage = 'ru';
+
 $weather->find(
     search: 'San Francisco'
 );
