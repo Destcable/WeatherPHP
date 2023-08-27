@@ -5,7 +5,6 @@ namespace WeatherPHP;
 class Weather
 {
     public string $language = 'en';
-
     private string $apiKey;
     private array $data;
     
