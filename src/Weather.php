@@ -4,7 +4,7 @@ namespace WeatherPHP;
 
 class Weather
 {
-    public string $lanugage = 'en';
+    public string $language = 'en';
 
     private string $apiKey;
     private array $data;
@@ -16,7 +16,7 @@ class Weather
 
     public function find(string $search): array
     {
-        $client = new Client($this->apiKey, $this->lanugage);
+        $client = new Client($this->apiKey, $this->language);
 
         $this->data = $client->get($search);
 
