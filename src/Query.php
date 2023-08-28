@@ -2,7 +2,7 @@
 
 namespace WeatherPHP;
 
-final class Client
+final class Query
 {
     public static function get(string $url)
     {
