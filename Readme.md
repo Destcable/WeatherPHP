@@ -33,3 +33,10 @@ $weather->getDaysTemperature(
     days: 5
 );
 ```
+
+
+Planning an event and up to 5 days, if the event is large for 5 days (an error will occur, because at the moment working with the scheduler for more than 5 days is not provided).
+
+```php
+$event = new Event('Playing football with friends', '2023-08-30 12:00', 'Sunny');
+```
