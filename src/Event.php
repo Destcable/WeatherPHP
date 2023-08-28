@@ -7,6 +7,7 @@ use Exception;
 class Event
 {
     private string $name;
+    private string $city;
     private string $dateTime;
     private string $expectedWeather;
 
@@ -35,9 +36,10 @@ class Event
     ];
 
 
-    public function __construct(string $name, string $dateTime, string $expectedWeather)
+    public function __construct(string $name, string $city, string $dateTime, string $expectedWeather)
     {
         $this->name = $name;
+        $this->city = $city;
         $this->dateTime = $dateTime;
     
         $this->setExpectedWeather($expectedWeather, $this->weatherConditions);
@@ -47,6 +49,11 @@ class Event
     public function getName(): string
     {
         return $this->name;
+    }
+
+    public function getCity(): string
+    {
+        return $this->city;
     }
 
     public function getDateTime(): string
