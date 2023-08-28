@@ -20,7 +20,6 @@ $weather->find(
 $weather->getTemperature();
 ```
 
-
 Getting the weather in time difference, the maximum amount in days that can be obtained +5 from the current date.
 
 ```php
@@ -33,7 +32,6 @@ $weather->getDaysTemperature(
     days: 5
 );
 ```
-
 
 Planning an event and up to 5 days, if the event is large for 5 days (an error will occur, because at the moment working with the scheduler for more than 5 days is not provided).
 
