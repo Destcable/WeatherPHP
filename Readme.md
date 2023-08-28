@@ -14,8 +14,21 @@ $weather = new Weather( apiKey: 'you_api_key');
 $weather->language = 'ru';
 
 $weather->find(
-    search: 'San Francisco'
+    city: 'San Francisco'
 );
 
 $weather->getTemperature();
+```
+
+Getting the weather in time difference, the maximum amount in days that can be obtained +5 from the current date.
+
+```php
+use WeatherPHP\Weather;
+
+$weather = new Weather( apiKey: 'you_api_key');
+
+$weather->getDaysTemperature(
+    city: 'Москва', 
+    days: 5
+);
 ```
