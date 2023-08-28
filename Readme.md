@@ -20,6 +20,7 @@ $weather->find(
 $weather->getTemperature();
 ```
 
+
 Getting the weather in time difference, the maximum amount in days that can be obtained +5 from the current date.
 
 ```php
