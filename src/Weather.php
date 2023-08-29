@@ -54,4 +54,9 @@ class Weather
     {
         return $this->data['main']['temp'];
     }
+    
+    public function analyzeEvent(Event $event)
+    { 
+
+    }
 }

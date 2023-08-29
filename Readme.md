@@ -38,5 +38,10 @@ Planning an event and up to 5 days, if the event is large for 5 days (an error w
 ```php
 use WeatherPHP\Weather;
 
-$event = new Event('Playing football with friends', 'Moscow', '2023-08-30 12:00', 'Sunny');
+$event = new Event( 
+    name: 'Playing football with friends', 
+    city: 'Moscow', 
+    date: '2023-08-30 12:00', 
+    expectedWeather: 'Sunny'
+);
 ```
